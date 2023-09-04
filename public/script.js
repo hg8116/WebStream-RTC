@@ -29,7 +29,6 @@ navigator.mediaDevices
         // connectSpectatorToNewUser(userId, stream)
         console.log("User is a spectator. Camera is not connected.")
       } else {
-        // Handle regular user logic.
         connectToNewUser(userId, stream)
       }
     })
